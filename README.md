@@ -19,20 +19,6 @@ The published experience uses two clocks:
 - The Monitor may refresh after a successful daily pipeline run; it cannot silently
   rewrite the approved executive narrative.
 
-## Optional: run the site locally
-
-These steps are only for someone who clones the repository and wants to inspect the
-built HTML locally, without relying on the published GitHub Pages site.
-
-From this repository directory, run:
-
-```bash
-python3 -m http.server 8765 --directory docs
-```
-
-Then open `http://127.0.0.1:8765/`. The primary navigation is **Overview**, **Analysis**,
-**Monitor**, and **Method**. Stop the server with `Control-C`.
-
 ## What to review
 
 - **Overview** - the CPO recommendation, three executive signals, recent movement, and
