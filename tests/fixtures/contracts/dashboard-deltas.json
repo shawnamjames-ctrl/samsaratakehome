@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "monitoring_run_id": "monitoring_fixture_001",
+  "comparison_start_exclusive": "2026-08-30T15:17:00+00:00",
+  "data_through": "2026-08-31T15:15:00+00:00",
+  "delta_counts": {"new_review": 1, "text_edited": 0, "rating_changed": 0, "developer_reply_changed": 0, "helpfulness_changed": 0, "visibility_changed": 0},
+  "review_deltas": [
+    {"evidence_key": "ev_0123456789abcdef", "app_key": "google_fleet_us", "product": "Fleet", "platform": "Android", "change_types": ["new_review"], "review_timestamp": "2026-08-31T12:00:00+00:00", "rating": 1, "theme_ids": ["fleet_mobile_stability"], "human_review_required": true}
+  ]
+}

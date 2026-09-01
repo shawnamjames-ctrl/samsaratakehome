@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "analysis_release_id": "reliable_test",
+  "publication_policy": "Approved release only.",
+  "recommendation_count": 1,
+  "recommendations": [
+    {
+      "recommendation_id": "example_recommendation",
+      "recommendation_name": "Example recommendation",
+      "rationale": "Why the recommendation matters.",
+      "evidence_status": {"code": "supported_diagnostic", "label": "Supported diagnostic"},
+      "evidence_summary": "What the evidence supports.",
+      "recommended_action": "What to do next.",
+      "decision_boundary": "What the evidence cannot establish.",
+      "additional_data_needed": "What additional evidence is required.",
+      "display_order": 1,
+      "evidence": [
+        {
+          "evidence_id": "example_metric",
+          "evidence_class": "governed_metric",
+          "metric_label": "Example metric",
+          "metric_value": "10 reviews",
+          "context": "Example denominator context.",
+          "display_order": 1
+        }
+      ]
+    }
+  ]
+}

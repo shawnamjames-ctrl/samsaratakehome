@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dashboard-deltas.schema.json",
+  "title": "Privacy-safe daily review deltas",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "monitoring_run_id", "comparison_start_exclusive", "data_through", "delta_counts", "review_deltas"],
+  "properties": {
+    "schema_version": {"type": "string", "const": "1.0"},
+    "monitoring_run_id": {"type": "string"},
+    "comparison_start_exclusive": {"type": "string"},
+    "data_through": {"type": "string"},
+    "delta_counts": {"type": "object"},
+    "review_deltas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["evidence_key", "app_key", "product", "platform", "change_types", "review_timestamp", "rating", "theme_ids", "human_review_required"],
+        "properties": {
+          "evidence_key": {"type": "string", "pattern": "^ev_[a-f0-9]{16}$"},
+          "app_key": {"type": "string"},
+          "product": {"type": "string", "enum": ["Driver", "Fleet"]},
+          "platform": {"type": "string", "enum": ["Android", "iOS"]},
+          "change_types": {
+            "type": "array",
+            "minItems": 1,
+            "items": {"type": "string", "enum": ["new_review", "text_edited", "rating_changed", "app_version_changed", "developer_reply_changed", "helpfulness_changed", "visibility_changed"]}
+          },
+          "review_timestamp": {"type": "string"},
+          "rating": {"type": "integer", "minimum": 1},
+          "theme_ids": {"type": "array", "items": {"type": "string"}},
+          "human_review_required": {"type": "boolean"}
+        }
+      }
+    }
+  }
+}

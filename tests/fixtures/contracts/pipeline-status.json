@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "monitoring_run_id": "monitoring_fixture_001",
+  "status": "succeeded",
+  "started_at": "2026-08-31T15:15:00+00:00",
+  "completed_at": "2026-08-31T15:17:00+00:00",
+  "published_at": "2026-08-31T15:18:00+00:00",
+  "last_good_monitoring_run_id": "monitoring_fixture_001",
+  "static_release_unchanged": true,
+  "gate_results": [
+    {"gate": "source_integrity", "passed": true, "detail": "All four sources succeeded."},
+    {"gate": "privacy", "passed": true, "detail": "No prohibited fields present."}
+  ]
+}

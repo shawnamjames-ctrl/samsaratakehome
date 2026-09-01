@@ -1,0 +1,182 @@
+[
+  {
+    "all_review_denominator": 82,
+    "all_review_rate_pct": 30.5,
+    "improvement_signal_denominator": 71,
+    "platform": "Android",
+    "product": "Fleet",
+    "share_of_improvement_signals_pct": 35.2,
+    "theme_id": "fleet_access_recovery",
+    "theme_reviews": 25
+  },
+  {
+    "all_review_denominator": 45,
+    "all_review_rate_pct": 8.9,
+    "improvement_signal_denominator": 20,
+    "platform": "iOS",
+    "product": "Fleet",
+    "share_of_improvement_signals_pct": 20.0,
+    "theme_id": "fleet_access_recovery",
+    "theme_reviews": 4
+  },
+  {
+    "all_review_denominator": 82,
+    "all_review_rate_pct": 42.7,
+    "improvement_signal_denominator": 71,
+    "platform": "Android",
+    "product": "Fleet",
+    "share_of_improvement_signals_pct": 49.3,
+    "theme_id": "fleet_mobile_stability",
+    "theme_reviews": 35
+  },
+  {
+    "all_review_denominator": 45,
+    "all_review_rate_pct": 20.0,
+    "improvement_signal_denominator": 20,
+    "platform": "iOS",
+    "product": "Fleet",
+    "share_of_improvement_signals_pct": 45.0,
+    "theme_id": "fleet_mobile_stability",
+    "theme_reviews": 9
+  },
+  {
+    "all_review_denominator": 82,
+    "all_review_rate_pct": 12.2,
+    "improvement_signal_denominator": 71,
+    "platform": "Android",
+    "product": "Fleet",
+    "share_of_improvement_signals_pct": 14.1,
+    "theme_id": "fleet_map_stability",
+    "theme_reviews": 10
+  },
+  {
+    "all_review_denominator": 45,
+    "all_review_rate_pct": 4.4,
+    "improvement_signal_denominator": 20,
+    "platform": "iOS",
+    "product": "Fleet",
+    "share_of_improvement_signals_pct": 10.0,
+    "theme_id": "fleet_map_stability",
+    "theme_reviews": 2
+  },
+  {
+    "all_review_denominator": 590,
+    "all_review_rate_pct": 7.8,
+    "improvement_signal_denominator": 328,
+    "platform": "Android",
+    "product": "Driver",
+    "share_of_improvement_signals_pct": 14.0,
+    "theme_id": "driver_hos_state_integrity",
+    "theme_reviews": 46
+  },
+  {
+    "all_review_denominator": 210,
+    "all_review_rate_pct": 10.0,
+    "improvement_signal_denominator": 109,
+    "platform": "iOS",
+    "product": "Driver",
+    "share_of_improvement_signals_pct": 19.3,
+    "theme_id": "driver_hos_state_integrity",
+    "theme_reviews": 21
+  },
+  {
+    "all_review_denominator": 590,
+    "all_review_rate_pct": 9.8,
+    "improvement_signal_denominator": 328,
+    "platform": "Android",
+    "product": "Driver",
+    "share_of_improvement_signals_pct": 17.7,
+    "theme_id": "driver_workflow_friction",
+    "theme_reviews": 58
+  },
+  {
+    "all_review_denominator": 210,
+    "all_review_rate_pct": 7.6,
+    "improvement_signal_denominator": 109,
+    "platform": "iOS",
+    "product": "Driver",
+    "share_of_improvement_signals_pct": 14.7,
+    "theme_id": "driver_workflow_friction",
+    "theme_reviews": 16
+  },
+  {
+    "all_review_denominator": 590,
+    "all_review_rate_pct": 12.5,
+    "improvement_signal_denominator": 328,
+    "platform": "Android",
+    "product": "Driver",
+    "share_of_improvement_signals_pct": 22.6,
+    "theme_id": "driver_app_stability",
+    "theme_reviews": 74
+  },
+  {
+    "all_review_denominator": 210,
+    "all_review_rate_pct": 9.0,
+    "improvement_signal_denominator": 109,
+    "platform": "iOS",
+    "product": "Driver",
+    "share_of_improvement_signals_pct": 17.4,
+    "theme_id": "driver_app_stability",
+    "theme_reviews": 19
+  },
+  {
+    "all_review_denominator": 590,
+    "all_review_rate_pct": 3.1,
+    "improvement_signal_denominator": 328,
+    "platform": "Android",
+    "product": "Driver",
+    "share_of_improvement_signals_pct": 5.5,
+    "theme_id": "driver_safety_false_detection",
+    "theme_reviews": 18
+  },
+  {
+    "all_review_denominator": 210,
+    "all_review_rate_pct": 1.0,
+    "improvement_signal_denominator": 109,
+    "platform": "iOS",
+    "product": "Driver",
+    "share_of_improvement_signals_pct": 1.8,
+    "theme_id": "driver_safety_false_detection",
+    "theme_reviews": 2
+  },
+  {
+    "all_review_denominator": 590,
+    "all_review_rate_pct": 3.6,
+    "improvement_signal_denominator": 328,
+    "platform": "Android",
+    "product": "Driver",
+    "share_of_improvement_signals_pct": 6.4,
+    "theme_id": "driver_control_and_simplification_requests",
+    "theme_reviews": 21
+  },
+  {
+    "all_review_denominator": 210,
+    "all_review_rate_pct": 4.8,
+    "improvement_signal_denominator": 109,
+    "platform": "iOS",
+    "product": "Driver",
+    "share_of_improvement_signals_pct": 9.2,
+    "theme_id": "driver_control_and_simplification_requests",
+    "theme_reviews": 10
+  },
+  {
+    "all_review_denominator": 82,
+    "all_review_rate_pct": 1.2,
+    "improvement_signal_denominator": 71,
+    "platform": "Android",
+    "product": "Fleet",
+    "share_of_improvement_signals_pct": 1.4,
+    "theme_id": "fleet_product_requests",
+    "theme_reviews": 1
+  },
+  {
+    "all_review_denominator": 45,
+    "all_review_rate_pct": 4.4,
+    "improvement_signal_denominator": 20,
+    "platform": "iOS",
+    "product": "Fleet",
+    "share_of_improvement_signals_pct": 10.0,
+    "theme_id": "fleet_product_requests",
+    "theme_reviews": 2
+  }
+]

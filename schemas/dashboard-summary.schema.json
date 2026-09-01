@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dashboard-summary.schema.json",
+  "title": "Daily dashboard summary",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "monitoring_run_id", "analysis_release_id", "last_successful_run_at", "data_through", "comparison_start_exclusive", "source_status", "new_reviews_since_prior_success", "changed_reviews_since_prior_success", "review_volume", "rating_mix", "human_review_queue_count"],
+  "properties": {
+    "schema_version": {"type": "string", "const": "1.0"},
+    "monitoring_run_id": {"type": "string"},
+    "analysis_release_id": {"type": "string"},
+    "last_successful_run_at": {"type": "string"},
+    "data_through": {"type": "string"},
+    "comparison_start_exclusive": {"type": "string"},
+    "source_status": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["app_key", "status", "records_received", "newest_review_at", "observed_at"],
+        "properties": {
+          "app_key": {"type": "string"},
+          "status": {"type": "string", "enum": ["succeeded", "failed", "stale"]},
+          "records_received": {"type": "integer", "minimum": 0},
+          "newest_review_at": {"type": ["string", "null"]},
+          "observed_at": {"type": "string"}
+        }
+      }
+    },
+    "new_reviews_since_prior_success": {"type": "integer", "minimum": 0},
+    "changed_reviews_since_prior_success": {"type": "integer", "minimum": 0},
+    "review_volume": {"type": "array"},
+    "rating_mix": {"type": "array"},
+    "human_review_queue_count": {"type": "integer", "minimum": 0}
+  }
+}

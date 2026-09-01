@@ -1,0 +1,3812 @@
+{
+  "analysis_release_id": "reliable_20260831_v3",
+  "cutoff_exclusive": "2026-09-01T00:00:00+00:00",
+  "evidence_policy": "Complete theme-linked evidence index with anonymous, non-verbatim review attributes. Reviewer identity and raw text remain private.",
+  "schema_version": "1.0",
+  "themes": [
+    {
+      "evidence_count": 44,
+      "name": "Fleet mobile stability",
+      "rank": 1,
+      "records": [
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_okbehfhbhfffcpao",
+          "platform": "iOS",
+          "product": "Fleet",
+          "rating_band": "3 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "Latest 30 days",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_lnpihdmpoeanikik",
+          "platform": "iOS",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "Latest 30 days",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_icdckelgfbgmofof",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "Latest 30 days",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_emjaceofjhlgannf",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "Latest 30 days",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_gbkhgehkogmkdlpe",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "Latest 30 days",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_blpianckffmhlhbo",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "Latest 30 days",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_mihgfdomdojbmdei",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "3 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_einojmnjekncdjbm",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_baopldeadeljmgoc",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_lddaipiakeggbodd",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "31\u201390 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_hcoefamlldfecicg",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_adilaiaeligjlgmh",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_acofgnmofcaoiifp",
+          "platform": "iOS",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "31\u201390 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_himajppgagkhiebk",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "31\u201390 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_fpachbmnpkjgnjna",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "31\u201390 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_blhggicgaghcopdm",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_gmaobejcpapcginf",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_ggpkcmfgekdlnjll",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_mmmeochcnbpodbah",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_maodggmacencmeob",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_bokhlbifcbffbcng",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_cjbnbncmeabbibpd",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_gnkbjipdfaflnebh",
+          "platform": "iOS",
+          "product": "Fleet",
+          "rating_band": "3 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_obbmenhhndkichfk",
+          "platform": "iOS",
+          "product": "Fleet",
+          "rating_band": "3 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_eaojhibjgokpjkih",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_eehhomihdpgogepf",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_klddgjiplpdbhaon",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_ilenenmbhadajjjn",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_opmkbmcmkepijboa",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "3 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_ldmloahgnlfbkcam",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_bbnipfabnbaoaflg",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_ejhgdodblalagdmj",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_obknmkafmnocoalc",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_kpfbbbfnmmfjjjll",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_pjgajghlafledjjp",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Fleet hardware activation"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_ochlpeddkemjbfka",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_poblflpalgcbmjdi",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "3 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_klackkhbchjhlcce",
+          "platform": "iOS",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Cameras and video safety"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_fniiiemonhdkclem",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_phebmppddoabemeb",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_aigmjaffjbgpfeia",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "3 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_bfnlblhbpefelede",
+          "platform": "iOS",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_fkcgdnpicgjddkbn",
+          "platform": "iOS",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_aggimiadfhebincd",
+          "platform": "iOS",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        }
+      ],
+      "theme_id": "fleet_mobile_stability"
+    },
+    {
+      "evidence_count": 29,
+      "name": "Fleet access and recovery",
+      "rank": 2,
+      "records": [
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_lhkakgmbpdmkpenp",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "Latest 30 days",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_obgbeoldnpdbocog",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_ickpgapgkplddiid",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "31\u201390 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_ppaeelblababnjlf",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_choodehcpejepkpc",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_gejbapmbgoekdgni",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_lefjdhblncecbifa",
+          "platform": "iOS",
+          "product": "Fleet",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_jgofbcnnbbhocjnc",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_polfldpfjnadoakk",
+          "platform": "iOS",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_coicjdopdlekocbf",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_lfhdapgckbgjoick",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_epoofenbdlpdpglj",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_apepbehpikgbdhma",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_cdopkglienfeokjk",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "3 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_imgdniafeoflbpgk",
+          "platform": "iOS",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Cameras and video safety"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_lipmaldgbkebajgj",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_jpcpopjchpbljdla",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_igomhjemhichkjdo",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_lpmgonojkmhmebok",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_gkhcijkmfgcglpaa",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_ipkamdgdbdfjolha",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_aaibihgkljlkpbco",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_hinkhjpbccihdnla",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_nffaphjkhijplibp",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_jmilpoepmolmekmf",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ejnkgifhohjacoai",
+          "platform": "iOS",
+          "product": "Fleet",
+          "rating_band": "3 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_lpljlaajiebojcon",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_pmndcdnlldkidjmg",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_pdbneefigiamceef",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Login, logout, or MFA problem",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        }
+      ],
+      "theme_id": "fleet_access_recovery"
+    },
+    {
+      "evidence_count": 67,
+      "name": "Driver HOS state integrity",
+      "rank": 3,
+      "records": [
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_hkndimgjieaphphj",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Synchronization or connectivity problem",
+          "time_band": "Latest 30 days",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_kcgaoencpdnckohf",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Synchronization or connectivity problem",
+          "time_band": "Latest 30 days",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_klekfaibbipbojgd",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "Latest 30 days",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_hicddngllcfionnf",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "31\u201390 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_pdpgpoadloebiame",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "31\u201390 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_nimangnbkhejfohd",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Synchronization or connectivity problem",
+          "time_band": "31\u201390 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_ipnhdelcddkebgdm",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "31\u201390 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_hboffmnfmngjhkcg",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "31\u201390 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_pkblmaflipocnkfp",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "31\u201390 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_hgolicfdidpllpbl",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "31\u201390 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_ppccddkdlkckabgg",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "31\u201390 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_cnkbgindndhbccoj",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "31\u201390 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_ponhmaglclhihllp",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Data loss or reset",
+          "time_band": "31\u201390 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_bjkohkbfmjocmkhn",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "31\u201390 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_hlmagpbdefibkmhp",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "31\u201390 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_jblccapbiimddcgh",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "31\u201390 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_jcdanjmnmfieegjh",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "31\u201390 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_cjlabidghkegagnj",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "31\u201390 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_pllppckednljlcgn",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_kemlnonkhgnifclp",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_kffkkapcdjmfojje",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_omolojlghpfooemh",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Synchronization or connectivity problem",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_lhcgoafkkcmmjnnl",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Synchronization or connectivity problem",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_pifmaehpnflmfnmo",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_flfggkghofjknalf",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_engmbcmnpmjbaebb",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_pphfljegkndlihld",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_hpcabcegcciklfio",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_clmddkhehhgkjnck",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Data loss or reset",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_bpmmanpmhjgjcjjc",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_pomjleihgmmehgci",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_ppfhmangldkonhbf",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_jjjaipbiflahmefb",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_kdkcklghmbeclpeb",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_llnncmnbdboinbmb",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_ngeagoajgklikanh",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_hkpgfbaoaahijhfg",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_fdmihffmgooenoeh",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_cobbaabbliccclck",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_lgkanljpkajnepbo",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_ieibphegdbgliand",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_hlgpaoppailnfobj",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_nmnokmdgjgiponin",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_jjdiieblmppdbmpe",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_jhahmobcojeiieag",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_lbbmakhcjedaaadm",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_pkafppkehckcnhcj",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_hcgcjgkdkapaokdn",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_hlbokdjjmekkafjb",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_aoopjaiiklkonbpk",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Data loss or reset",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_cjdhdpchmkpdkoij",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_pbdmmgpbbhjemckk",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_kkcmpfocjlikcnle",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_hfpiophfaojflgmh",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_pkbfnnobmlingefh",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_gmienflcihnlgidk",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_hdkfmnbgghepfiff",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_hchfeikkgbpplnkh",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Data loss or reset",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_gmjfldaaihomcgnk",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_mcadlndinfkfalhl",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_fgfjimifchhgipdk",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_pbepckikeaccpbbj",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_ldkfpgffaoonhnlg",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Synchronization or connectivity problem",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_lcdbmaidpegmeobi",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Data loss or reset",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_gljijolejhkkidfn",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_ankgdkelkidpbgae",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_poicbgcgenjfifpc",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Incorrect state or data",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        }
+      ],
+      "theme_id": "driver_hos_state_integrity"
+    },
+    {
+      "evidence_count": 74,
+      "name": "Driver workflow friction",
+      "rank": 4,
+      "records": [
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_gmcljebejiaghjpj",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "Latest 30 days",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_pbfkpdncmeondjmi",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "Latest 30 days",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ebkilgccmpdkcggn",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "Latest 30 days",
+          "workflow": "DVIR and inspections"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_gcakkbcifaibhgcp",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "Latest 30 days",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_cfannfhjnddljpap",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "Latest 30 days",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_phmhnellamcojojo",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "Latest 30 days",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_bgjmbejhpjkmkmjb",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "Latest 30 days",
+          "workflow": "Driver assignment"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_iipibfhppgkhhjkm",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "31\u201390 days ago",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_lgpbjlfelchhkbhi",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_figjagkepjioafnb",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_dkakjnainmlaafnj",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "31\u201390 days ago",
+          "workflow": "Driver assignment"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_dfakjhmgmjndcbmk",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_njelnpddfkocolbj",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "31\u201390 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_hihejkjbkabjclhf",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "31\u201390 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ldiggofjlenimiio",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "31\u201390 days ago",
+          "workflow": "DVIR and inspections"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_elebjahjkidphhki",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_mggkmbpmofdpolgm",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Coaching and training"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_eoojmdbddgjlmali",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_pgcnimmmablghidn",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ngfdphmfmkimboai",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ekhigefncechifih",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_mkhidpfckcjicndk",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_fgfhdddedfmoicnj",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_nklldplcchdenold",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_ndjbiagpkbbiefdn",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Driver assignment"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ndmoiceibhhkhhkb",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_modbmhpdldoiplmo",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "DVIR and inspections"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_dipphdmngjcbbopj",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_oohjcefjkaochnek",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_gilagpojggkefpcl",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ahjjbmmgdinecpnf",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_oogkkmplblnmhpaa",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_fhgmpojmmjehbflg",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Routing, dispatch, and navigation"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_gfafgjkbgphbkago",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_kljeonfocegkajnm",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "DVIR and inspections"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_lofaepakgnlhjfjo",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_hdeoiipifkphjjan",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Driver assignment"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ambpjladkimaknfl",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_obfcccaemclolmee",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_almmmippfmfpheni",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ghlndlppcfdlefaa",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_apcemelgkcpngpac",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_cdlbcdeiceokegmk",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_lndfgembkmemkgen",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "DVIR and inspections"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_jcpokmhaliklogdo",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_imidiicceeibkmja",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_pinnckljlagikilh",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "DVIR and inspections"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_bheloelgohakdhmi",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_klcmpgmlhjoddhgl",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_gcolchpinflgdnao",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_oobbdfpkpcjdffld",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_nlbkhogdilgddfab",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_libhgdohomajihjj",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ccecfjgejaenmjef",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_fbioafejfoapjedm",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_kdlfnleajaelalkk",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_aphcmmeeahmmpknh",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "DVIR and inspections"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_cgccilnpmpopdemd",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_hbkplngcdpndbljd",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "DVIR and inspections"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_bfcpimcdombfopfi",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_jfegkafgfeeecgml",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_emcjldchnkpminen",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_mglimbdklcabknmc",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_baiepkcmohedplmj",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ofpcnmcggajioamf",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_mafpcoijjolbmcmo",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_nknjaedchhmmcjgk",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ipapecgaiiplhkcc",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_lipnhilmeomnhmjp",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Messages, inbox, and tasks"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_fhheahhaeoojdimp",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_bdiddcfmmckpcakc",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_klfpciphcfabgjfe",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_gndelcljdhgieapc",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_jfcaeflofabbbaak",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "DVIR and inspections"
+        }
+      ],
+      "theme_id": "driver_workflow_friction"
+    },
+    {
+      "evidence_count": 93,
+      "name": "Driver app stability",
+      "rank": 5,
+      "records": [
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_cdpegoibalfkiccf",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "Latest 30 days",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_lkeknbaefenjhnof",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "Latest 30 days",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_mhfgbdoogafpioba",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "Latest 30 days",
+          "workflow": "Documents and connected forms"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_penafgccjelkekpb",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "Latest 30 days",
+          "workflow": "Documents and connected forms"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ipfjmlfmgopcdoca",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "Latest 30 days",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_cfijapfmihpddgnb",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "Latest 30 days",
+          "workflow": "Documents and connected forms"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_mmefnjfhfangfdlj",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "Latest 30 days",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_lopklhhpiillghch",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "Latest 30 days",
+          "workflow": "Documents and connected forms"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_nhlmkecceaahbnkc",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "Latest 30 days",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_mmhcldaamcdhbfff",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_nbkknpgaijihgacc",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "31\u201390 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_lmgfhfeoddlillag",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_bbjjijhhfannjamo",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "31\u201390 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ipohebkjofoninfc",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "31\u201390 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_kbaahbhcogohnngn",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "31\u201390 days ago",
+          "workflow": "Documents and connected forms"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_elbffgeicmlgkchf",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_nlholeohakfnbcjb",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_foapigogmkpelioi",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "31\u201390 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_gpbopjhfllmpnlpf",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_odahgalbaljgplkj",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_dfjhobdloegalkcg",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_flkjhkkemonbcgkf",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_fgnafecgofpdjdeg",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_okebgenneflhdfhc",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_icodamiennbgojan",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ppgnchjkphaidpcp",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_fcoipbamddbnlfhp",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Routing, dispatch, and navigation"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_bfhpfcmmgfpjmcke",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "DVIR and inspections"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_hgbgllconpgbkimg",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_emkngkfbomohpnol",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_hcalnhiahegdakff",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_opnhjnfnhljlhikf",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_dbgbcjaechddacfo",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_geikeoenjdncblap",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_logkpadjgbnkcffb",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_blbpomobhhnfinge",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_bkhjnajkpkbacbge",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_cediglplbnloldhi",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_obfljkocoiikljil",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Coaching and training"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_bhlmjknhpllmjjja",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_lhbdnclilhmepmjm",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_mdhomdimlimoalib",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ogcfgpdeildjgjhi",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_jamjffbddmfmonil",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_nbbbbogeoiifnmpk",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_gidffhgidgbpncjb",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_bilcpfideibomdch",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_pkifmmhdpkbeklbf",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_hedfoimekgnendjm",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_megnhkchibgiggpa",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_pbppfkbihjbbojfb",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_pmcmbplmghepenoo",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_enbkhbfinipadlon",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_kmeoffaagmbcbngc",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_chfkjjckdlibpbai",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_icdfildbnbgppopd",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_ohdpnnicppfnnfgj",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_balkcgcpkgffdeod",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_eeejjbgboldnimhf",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_hdihfbaomeneggkn",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_gejlgmebgfecolfn",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_kddmldmliflohaoa",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_mehbnkdbngncfnjm",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Coaching and training"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_bimlciocnegeoaod",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_lmjdnifhmjajidmc",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_kedmefmhghiakkla",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ooncaemcpeppojnl",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_iioffiagkoacbpon",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "DVIR and inspections"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_jifpndgjanaigmdp",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_akmloalmaapnibbe",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_fbpbkmipjhehocpl",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_pdcljjbgaeibkcjc",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_lcjljfohhfpnnlmg",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Coaching and training"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_kcbkelpiikbfepec",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_flncdfkphhnngdbg",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_afgajknhdijaogha",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_bkalnahpgbhcleio",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_mdlenlnbfkmfddlh",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_hchlhcmjoldpgojc",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_fibpfldlocjgdpok",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Routing, dispatch, and navigation"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_aefoaokelobhobep",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_ijjjcoimbnpjikge",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_gcndaadhcnkagpem",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_hfnnoeamkibfnjch",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Documents and connected forms"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_kgpomejmeiiopkdl",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_hpgidonhnbeohoam",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_jjiejfhjjjjicafa",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Documents and connected forms"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_pfhhfjkgmbafoghh",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_mnjalmekoiemjbfp",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Documents and connected forms"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_mhpeponalphchcbn",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_cnpgcpfgedkbajkd",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Documents and connected forms"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_lgdajkmeacckpihd",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_megibdpifajjdjaa",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        }
+      ],
+      "theme_id": "driver_app_stability"
+    },
+    {
+      "evidence_count": 12,
+      "name": "Fleet map stability",
+      "rank": 6,
+      "records": [
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_gbkhgehkogmkdlpe",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "Latest 30 days",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_lddaipiakeggbodd",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "31\u201390 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_acofgnmofcaoiifp",
+          "platform": "iOS",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "31\u201390 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_himajppgagkhiebk",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "31\u201390 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_fpachbmnpkjgnjna",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "31\u201390 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_eaojhibjgokpjkih",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_klddgjiplpdbhaon",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Blank or unavailable view",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_ilenenmbhadajjjn",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_poblflpalgcbmjdi",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "3 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_fniiiemonhdkclem",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_phebmppddoabemeb",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Crash or forced close",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_bfnlblhbpefelede",
+          "platform": "iOS",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Slow, lagging, or loading failure",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Maps and asset visibility"
+        }
+      ],
+      "theme_id": "fleet_map_stability"
+    },
+    {
+      "evidence_count": 20,
+      "name": "Driver safety and AI false detections",
+      "rank": 7,
+      "records": [
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_jbgngdmghjokgbld",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "Latest 30 days",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ohaajbcnjdelcmjc",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "Latest 30 days",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_nlhjobdgednhikom",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "31\u201390 days ago",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_ibmoiommagllenec",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "31\u201390 days ago",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_mllhfgmdjplgoglk",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "31\u201390 days ago",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_nobgfjjdechcccig",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "31\u201390 days ago",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_kfajpogknmnnfjah",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "31\u201390 days ago",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_hainfcokiohpljbi",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_gndhfmfkakjmnjek",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_mhmaodlmhhjfliaa",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_bpmhmhfnnldkifcl",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_dnkgllbljkkemiob",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_mecijipnjhmpakhe",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_mdegjmcodbponeih",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_endnjmbhljdcjbli",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_iffojiabjgilibef",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_kmbifiakhcjifdln",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ofpfegnlnfhiooed",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_biknpbijgmbfbpel",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_dnnaemgfhpaoimnn",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Perceived false alert or detection",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Safety events and AI detection"
+        }
+      ],
+      "theme_id": "driver_safety_false_detection"
+    },
+    {
+      "evidence_count": 31,
+      "name": "Driver control and simplification requests",
+      "rank": 8,
+      "records": [
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_jdnfehplakmoojma",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "Latest 30 days",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ebkilgccmpdkcggn",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "Latest 30 days",
+          "workflow": "DVIR and inspections"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_bgjmbejhpjkmkmjb",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "Latest 30 days",
+          "workflow": "Driver assignment"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_hclbogjfbmkghdcc",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "31\u201390 days ago",
+          "workflow": "Messages, inbox, and tasks"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_jlellholncdopapk",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "31\u201390 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_dkakjnainmlaafnj",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "31\u201390 days ago",
+          "workflow": "Driver assignment"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_elebjahjkidphhki",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_ajnjelihfnmngkkc",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ilkmjocpmpoggdcf",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_nihbhnocgebahamk",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Safety events and AI detection"
+        },
+        {
+          "consequence": "High potential consequence",
+          "evidence_key": "ev_ndjbiagpkbbiefdn",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Driver assignment"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_nleailhkjphpeaba",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "Messages, inbox, and tasks"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_icmigpdgncebnmeg",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "DVIR and inspections"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_mpkpnfhhiaehicjb",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_dipphdmngjcbbopj",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "91\u2013183 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_lndfgembkmemkgen",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "DVIR and inspections"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_imidiicceeibkmja",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Extra steps or workflow friction",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_gmiggnpmpdkbdaid",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_cppgobjchgbkkjbi",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "DVIR and inspections"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_kficjdhoglggkpkk",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_dgipgpnlcnefimkh",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_mhjhgjpphkobpkkl",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "3 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Driver assignment"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_blebecfbkjfdfbeb",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Maps and asset visibility"
+        },
+        {
+          "consequence": "Critical potential consequence",
+          "evidence_key": "ev_laadhelelnljncdg",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_ijddlomhhkakdakn",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Messages, inbox, and tasks"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_hhpacddcimidladh",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_bklncgeglgllephe",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_pdbogmjaebleehkc",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "4\u20135 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "HOS and ELD compliance"
+        },
+        {
+          "consequence": "Material friction or delay",
+          "evidence_key": "ev_fkoklhpmkeeamlin",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Messages, inbox, and tasks"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_hjjpliflaebcmelk",
+          "platform": "Android",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Documents and connected forms"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_njadcpgkdpdojlln",
+          "platform": "iOS",
+          "product": "Driver",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        }
+      ],
+      "theme_id": "driver_control_and_simplification_requests"
+    },
+    {
+      "evidence_count": 3,
+      "name": "Fleet product requests",
+      "rank": 9,
+      "records": [
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_ihgbhgginniappal",
+          "platform": "Android",
+          "product": "Fleet",
+          "rating_band": "1\u20132 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_cdnlnfeoaomgjokm",
+          "platform": "iOS",
+          "product": "Fleet",
+          "rating_band": "3 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "General app experience"
+        },
+        {
+          "consequence": "Minor friction or request",
+          "evidence_key": "ev_pkfciegjnoilpbce",
+          "platform": "iOS",
+          "product": "Fleet",
+          "rating_band": "3 stars",
+          "reported_experience": "Missing capability or product request",
+          "time_band": "184\u2013365 days ago",
+          "workflow": "Cameras and video safety"
+        }
+      ],
+      "theme_id": "fleet_product_requests"
+    }
+  ],
+  "total_theme_links": 373,
+  "unique_evidence_records": 353
+}

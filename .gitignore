@@ -1,0 +1,35 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Private operational evidence must never enter the public repository.
+data/raw/
+data/processed/
+data/exports/
+private-data/
+*.sqlite
+*.sqlite3
+*.db
+
+# Unredacted or bulk review material.
+audit-private/
+review-text-private/
+*unredacted*
+*raw-snapshot*
+
+# Local build and diagnostic output.
+dist/
+build/
+.cache/
+coverage/
+artifacts/
+
+# The public site may consume only governed files under public-data/.
+public-data/**/*.tmp
+public-data/**/*.partial

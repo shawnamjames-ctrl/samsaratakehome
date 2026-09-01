@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "analysis_release_id": "reliable_test",
+  "cutoff_exclusive": "2026-09-01T00:00:00+00:00",
+  "evidence_policy": "Anonymous, non-verbatim evidence.",
+  "total_theme_links": 1,
+  "unique_evidence_records": 1,
+  "themes": [
+    {
+      "theme_id": "example_theme",
+      "name": "Example theme",
+      "rank": 1,
+      "evidence_count": 1,
+      "records": [
+        {
+          "evidence_key": "ev_abcdefghijklmnop",
+          "product": "Driver",
+          "platform": "Android",
+          "time_band": "Latest 30 days",
+          "rating_band": "1–2 stars",
+          "consequence": "High potential consequence",
+          "workflow": "General app experience",
+          "reported_experience": "Crash or forced close"
+        }
+      ]
+    }
+  ]
+}

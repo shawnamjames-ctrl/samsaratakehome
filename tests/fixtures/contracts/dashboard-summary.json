@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "monitoring_run_id": "monitoring_fixture_001",
+  "analysis_release_id": "reliable_20260829_v2",
+  "last_successful_run_at": "2026-08-31T15:17:00+00:00",
+  "data_through": "2026-08-31T15:15:00+00:00",
+  "comparison_start_exclusive": "2026-08-30T15:17:00+00:00",
+  "source_status": [
+    {"app_key": "apple_driver_us", "status": "succeeded", "records_received": 100, "newest_review_at": "2026-08-31T10:00:00+00:00", "observed_at": "2026-08-31T15:17:00+00:00"},
+    {"app_key": "apple_fleet_us", "status": "succeeded", "records_received": 100, "newest_review_at": "2026-08-31T09:00:00+00:00", "observed_at": "2026-08-31T15:17:00+00:00"},
+    {"app_key": "google_driver_us", "status": "succeeded", "records_received": 300, "newest_review_at": "2026-08-31T14:00:00+00:00", "observed_at": "2026-08-31T15:17:00+00:00"},
+    {"app_key": "google_fleet_us", "status": "succeeded", "records_received": 231, "newest_review_at": "2026-08-31T12:00:00+00:00", "observed_at": "2026-08-31T15:17:00+00:00"}
+  ],
+  "new_reviews_since_prior_success": 6,
+  "changed_reviews_since_prior_success": 2,
+  "review_volume": [{"product": "Driver", "count": 5, "denominator": 6, "rate_pct": 83.3}],
+  "rating_mix": [{"rating": 1, "count": 3, "denominator": 6, "rate_pct": 50.0}],
+  "human_review_queue_count": 2
+}

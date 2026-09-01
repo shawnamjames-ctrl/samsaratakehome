@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dashboard-themes.schema.json",
+  "title": "Daily existing-theme monitoring",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "monitoring_run_id", "analysis_release_id", "data_through", "classification_through", "unclassified_review_count", "classified_no_theme_count", "existing_theme_metrics", "alert_candidates", "emerging_signals"],
+  "properties": {
+    "schema_version": {"type": "string", "const": "2.0"},
+    "monitoring_run_id": {"type": "string"},
+    "analysis_release_id": {"type": "string"},
+    "data_through": {"type": "string"},
+    "classification_through": {"type": "string"},
+    "unclassified_review_count": {"type": "integer", "minimum": 0},
+    "classified_no_theme_count": {"type": "integer", "minimum": 0},
+    "existing_theme_metrics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["theme_id", "name", "product", "platform", "window", "count", "denominator", "rate_pct", "prior_count", "prior_denominator", "prior_rate_pct", "rate_change_pp", "one_review_sensitivity_pp", "provisional_count", "status", "recommended_action"],
+        "properties": {
+          "theme_id": {"type": "string"},
+          "name": {"type": "string"},
+          "product": {"type": "string", "enum": ["Driver", "Fleet"]},
+          "platform": {"type": "string", "enum": ["All", "Android", "iOS"]},
+          "window": {"type": "string"},
+          "count": {"type": "integer", "minimum": 0},
+          "denominator": {"type": "integer", "minimum": 0},
+          "rate_pct": {"type": "number", "minimum": 0},
+          "prior_count": {"type": "integer", "minimum": 0},
+          "prior_denominator": {"type": "integer", "minimum": 0},
+          "prior_rate_pct": {"type": "number", "minimum": 0},
+          "rate_change_pp": {"type": "number"},
+          "one_review_sensitivity_pp": {"type": "number", "minimum": 0},
+          "provisional_count": {"type": "integer", "minimum": 0},
+          "recommended_action": {"type": "string"},
+          "status": {"type": "string", "enum": ["stable", "watch", "alert", "insufficient_data"]}
+        }
+      }
+    },
+    "alert_candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["alert_id", "theme_id", "reason", "severity", "status", "human_review_required"],
+        "properties": {
+          "alert_id": {"type": "string"},
+          "theme_id": {"type": "string"},
+          "reason": {"type": "string"},
+          "severity": {"type": "string", "enum": ["low", "moderate", "high", "critical"]},
+          "status": {"type": "string", "enum": ["candidate", "confirmed", "dismissed"]},
+          "human_review_required": {"type": "boolean"}
+        }
+      }
+    },
+    "emerging_signals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["candidate_id", "label", "product", "platform", "support_count", "first_review_at", "latest_review_at", "average_rating", "status", "human_review_required"],
+        "properties": {
+          "candidate_id": {"type": "string", "pattern": "^candidate_[a-f0-9]{12}$"},
+          "label": {"type": "string"},
+          "product": {"type": "string", "enum": ["Driver", "Fleet"]},
+          "platform": {"type": "string", "enum": ["All", "Android", "iOS"]},
+          "support_count": {"type": "integer", "minimum": 2},
+          "first_review_at": {"type": "string"},
+          "latest_review_at": {"type": "string"},
+          "average_rating": {"type": "number", "minimum": 1},
+          "status": {"type": "string", "enum": ["candidate", "confirmed", "dismissed"]},
+          "human_review_required": {"type": "boolean"}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "pipeline-status.schema.json",
+  "title": "Public pipeline status",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "monitoring_run_id", "status", "started_at", "completed_at", "published_at", "gate_results", "last_good_monitoring_run_id", "static_release_unchanged"],
+  "properties": {
+    "schema_version": {"type": "string", "const": "1.0"},
+    "monitoring_run_id": {"type": "string"},
+    "status": {"type": "string", "enum": ["succeeded", "failed", "withheld"]},
+    "started_at": {"type": "string"},
+    "completed_at": {"type": "string"},
+    "published_at": {"type": ["string", "null"]},
+    "last_good_monitoring_run_id": {"type": ["string", "null"]},
+    "static_release_unchanged": {"type": "boolean", "const": true},
+    "gate_results": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["gate", "passed"],
+        "properties": {
+          "gate": {"type": "string"},
+          "passed": {"type": "boolean"},
+          "detail": {"type": "string"}
+        }
+      }
+    }
+  }
+}

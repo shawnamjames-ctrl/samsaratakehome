@@ -1,0 +1,32 @@
+{
+  "completed_at": "2026-08-31T23:40:07+00:00",
+  "gate_results": [
+    {
+      "detail": "All four configured sources reconciled successfully.",
+      "gate": "source_integrity",
+      "passed": true
+    },
+    {
+      "detail": "Six new and four changed existing reviews reconcile to the prior last-good state.",
+      "gate": "delta_reconciliation",
+      "passed": true
+    },
+    {
+      "detail": "The approved V3 analytical release is immutable during daily monitoring.",
+      "gate": "static_release",
+      "passed": true
+    },
+    {
+      "detail": "Awaiting final V3 site and document validation.",
+      "gate": "site_build",
+      "passed": false
+    }
+  ],
+  "last_good_monitoring_run_id": null,
+  "monitoring_run_id": "monitoring_20260831_reconcile_001",
+  "published_at": null,
+  "schema_version": "1.0",
+  "started_at": "2026-08-31T23:40:02+00:00",
+  "static_release_unchanged": true,
+  "status": "withheld"
+}

@@ -1,0 +1,24 @@
+{
+  "classifier_version": "frozen_theme_rules_v1",
+  "taxonomy_version": "1.0",
+  "candidate_minimum_support": 2,
+  "metric_rules": {
+    "minimum_current_denominator": 20,
+    "minimum_prior_denominator": 20,
+    "minimum_current_hits": 5,
+    "minimum_prior_hits": 5,
+    "watch_change_pp": 2.5,
+    "alert_change_pp": 10.0
+  },
+  "themes": [
+    {"theme_id":"fleet_mobile_stability","name":"Fleet mobile stability","product":"Fleet","severity":"high","terms":["crash","freez","slow","lag","load","blank screen","unresponsive","stuck"]},
+    {"theme_id":"fleet_access_recovery","name":"Fleet access and recovery","product":"Fleet","severity":"high","terms":["login","log in","sign in","password","authentication","mfa","logged out","locked out","reinstall"]},
+    {"theme_id":"fleet_map_stability","name":"Fleet map stability","product":"Fleet","severity":"moderate","terms":["map","zoom","gps","asset location","vehicle location"]},
+    {"theme_id":"fleet_product_requests","name":"Fleet product requests","product":"Fleet","severity":"low","request_required":true,"terms":["dark mode","landscape","ipad","download video","feature","option"]},
+    {"theme_id":"driver_hos_state_integrity","name":"Driver HOS state integrity","product":"Driver","severity":"critical","terms":["hos","duty status","logbook","drive time","cycle","eld","hours of service","on duty","off duty"]},
+    {"theme_id":"driver_workflow_friction","name":"Driver workflow friction","product":"Driver","severity":"moderate","terms":["too many clicks","extra steps","difficult","confusing","vehicle selection","dvir","navigation","hard to use","workflow"]},
+    {"theme_id":"driver_app_stability","name":"Driver app stability","product":"Driver","severity":"high","terms":["crash","freez","slow","lag","load","blank screen","unresponsive","stuck"]},
+    {"theme_id":"driver_safety_false_detection","name":"Driver safety and AI false detections","product":"Driver","severity":"high","terms":["false alert","false detection","seat belt","speeding","harsh event","camera","ai detection"]},
+    {"theme_id":"driver_control_and_simplification_requests","name":"Driver control and simplification requests","product":"Driver","severity":"moderate","request_required":true,"terms":["bring back","should add","need an option","wish","customize","simplify","let me choose","status visibility"]}
+  ]
+}

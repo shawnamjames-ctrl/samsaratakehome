@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "analysis_release_id": "reliable_20260829_v2",
+  "cutoff_exclusive": "2026-08-30T00:00:00+00:00",
+  "approved_at": "2026-08-31T00:00:00+00:00",
+  "source_manifest_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "surfaces": {
+    "executive_overview": {"headline": "Fleet stability is the urgent signal."},
+    "thematic_analysis": {"theme_count": 9},
+    "recommendations": [{"rank": 1, "theme_id": "fleet_mobile_stability", "name": "Fleet mobile stability", "posture": "stabilize_and_diagnose", "recommendation": "Stabilize Fleet mobile use", "confidence": "strong", "priority": "Now", "proposed_owner": "Proposed Fleet Mobile Product & Engineering"}],
+    "methodology": {"review_count": 924},
+    "data_reproducibility": {"source_interface": "reliable_v2_analysis_base"}
+  }
+}

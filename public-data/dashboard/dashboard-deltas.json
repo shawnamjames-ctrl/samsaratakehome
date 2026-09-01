@@ -1,0 +1,149 @@
+{
+  "comparison_start_exclusive": "2026-08-29T19:32:32+00:00",
+  "data_through": "2026-08-31T23:40:07+00:00",
+  "delta_counts": {
+    "helpfulness_changed": 3,
+    "new_review": 6,
+    "visibility_changed": 3
+  },
+  "monitoring_run_id": "monitoring_20260831_reconcile_001",
+  "review_deltas": [
+    {
+      "app_key": "apple_driver_us",
+      "change_types": [
+        "visibility_changed"
+      ],
+      "evidence_key": "ev_0130d1879149a7df",
+      "human_review_required": false,
+      "platform": "iOS",
+      "product": "Driver",
+      "rating": 5,
+      "review_timestamp": "2024-02-13T21:29:30+00:00",
+      "theme_ids": []
+    },
+    {
+      "app_key": "apple_driver_us",
+      "change_types": [
+        "new_review"
+      ],
+      "evidence_key": "ev_f2ee5acd30c083f6",
+      "human_review_required": false,
+      "platform": "iOS",
+      "product": "Driver",
+      "rating": 1,
+      "review_timestamp": "2026-08-28T14:33:45+00:00",
+      "theme_ids": [
+        "driver_workflow_friction"
+      ]
+    },
+    {
+      "app_key": "apple_fleet_us",
+      "change_types": [
+        "new_review"
+      ],
+      "evidence_key": "ev_0c288a087d234de8",
+      "human_review_required": false,
+      "platform": "iOS",
+      "product": "Fleet",
+      "rating": 5,
+      "review_timestamp": "2019-10-23T20:27:51+00:00",
+      "theme_ids": []
+    },
+    {
+      "app_key": "apple_fleet_us",
+      "change_types": [
+        "new_review"
+      ],
+      "evidence_key": "ev_c3ece6f2e26288f0",
+      "human_review_required": false,
+      "platform": "iOS",
+      "product": "Fleet",
+      "rating": 3,
+      "review_timestamp": "2026-08-28T20:10:15+00:00",
+      "theme_ids": [
+        "fleet_mobile_stability"
+      ]
+    },
+    {
+      "app_key": "google_driver_us",
+      "change_types": [
+        "new_review"
+      ],
+      "evidence_key": "ev_1b2015c8dfb7553d",
+      "human_review_required": false,
+      "platform": "Android",
+      "product": "Driver",
+      "rating": 1,
+      "review_timestamp": "2026-08-30T13:13:19+00:00",
+      "theme_ids": []
+    },
+    {
+      "app_key": "google_driver_us",
+      "change_types": [
+        "helpfulness_changed"
+      ],
+      "evidence_key": "ev_45845da2ddf93382",
+      "human_review_required": false,
+      "platform": "Android",
+      "product": "Driver",
+      "rating": 1,
+      "review_timestamp": "2025-11-08T11:52:11+00:00",
+      "theme_ids": []
+    },
+    {
+      "app_key": "google_driver_us",
+      "change_types": [
+        "new_review"
+      ],
+      "evidence_key": "ev_509d82e0289562e3",
+      "human_review_required": false,
+      "platform": "Android",
+      "product": "Driver",
+      "rating": 1,
+      "review_timestamp": "2026-08-30T18:43:55+00:00",
+      "theme_ids": []
+    },
+    {
+      "app_key": "google_driver_us",
+      "change_types": [
+        "new_review"
+      ],
+      "evidence_key": "ev_b1fac237ea9a646c",
+      "human_review_required": false,
+      "platform": "Android",
+      "product": "Driver",
+      "rating": 4,
+      "review_timestamp": "2026-08-29T23:14:23+00:00",
+      "theme_ids": []
+    },
+    {
+      "app_key": "google_driver_us",
+      "change_types": [
+        "helpfulness_changed",
+        "visibility_changed"
+      ],
+      "evidence_key": "ev_c9344fdeb740a838",
+      "human_review_required": false,
+      "platform": "Android",
+      "product": "Driver",
+      "rating": 1,
+      "review_timestamp": "2026-08-16T22:51:27+00:00",
+      "theme_ids": []
+    },
+    {
+      "app_key": "google_fleet_us",
+      "change_types": [
+        "helpfulness_changed",
+        "visibility_changed"
+      ],
+      "evidence_key": "ev_95b903ef83a2f7f7",
+      "human_review_required": false,
+      "platform": "Android",
+      "product": "Fleet",
+      "rating": 2,
+      "review_timestamp": "2026-01-16T03:05:28+00:00",
+      "theme_ids": []
+    }
+  ],
+  "schema_version": "1.0"
+}

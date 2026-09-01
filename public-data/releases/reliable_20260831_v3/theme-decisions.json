@@ -1,0 +1,83 @@
+[
+  {
+    "confidence": "strong",
+    "decision": "approved",
+    "decision_posture": "stabilize_and_diagnose",
+    "executive_rank": 1,
+    "momentum_claim_status": "strong_recent_elevation_183d_latest_30d_directional",
+    "platform_claim_status": "moderate_android_concentration_not_different_problem_type",
+    "theme_id": "fleet_mobile_stability"
+  },
+  {
+    "confidence": "strong",
+    "decision": "approved",
+    "decision_posture": "stabilize_and_diagnose",
+    "executive_rank": 2,
+    "momentum_claim_status": "strong_chronic_not_accelerating",
+    "platform_claim_status": "directional_android_concentration",
+    "theme_id": "fleet_access_recovery"
+  },
+  {
+    "confidence": "strong",
+    "decision": "approved",
+    "decision_posture": "diagnose_and_stabilize",
+    "executive_rank": 3,
+    "momentum_claim_status": "strong_elevated_183d_not_accelerating_30d",
+    "platform_claim_status": "strong_cross_platform_shared_problem",
+    "theme_id": "driver_hos_state_integrity"
+  },
+  {
+    "confidence": "strong",
+    "decision": "approved",
+    "decision_posture": "redesign_and_simplify",
+    "executive_rank": 4,
+    "momentum_claim_status": "strong_elevated_183d_and_recently_active",
+    "platform_claim_status": "strong_cross_platform_shared_problem",
+    "theme_id": "driver_workflow_friction"
+  },
+  {
+    "confidence": "strong",
+    "decision": "approved",
+    "decision_posture": "stabilize_and_diagnose",
+    "executive_rank": 5,
+    "momentum_claim_status": "strong_recent_30d_elevation",
+    "platform_claim_status": "strong_cross_platform_shared_problem",
+    "theme_id": "driver_app_stability"
+  },
+  {
+    "confidence": "moderate",
+    "decision": "merged_subtheme",
+    "decision_posture": "diagnose_within_fleet_stability",
+    "executive_rank": 6,
+    "momentum_claim_status": "moderate_recent_elevation",
+    "platform_claim_status": "directional_android_concentration",
+    "theme_id": "fleet_map_stability"
+  },
+  {
+    "confidence": "moderate",
+    "decision": "approved",
+    "decision_posture": "diagnose_and_protect",
+    "executive_rank": 7,
+    "momentum_claim_status": "moderate_elevated_183d_not_accelerating_30d",
+    "platform_claim_status": "directional_android_concentration",
+    "theme_id": "driver_safety_false_detection"
+  },
+  {
+    "confidence": "moderate",
+    "decision": "approved_opportunity_family",
+    "decision_posture": "redesign_and_prioritize_specific_workflows",
+    "executive_rank": 8,
+    "momentum_claim_status": "stable_current_rate_with_183d_elevation",
+    "platform_claim_status": "strong_cross_platform_shared_request_family",
+    "theme_id": "driver_control_and_simplification_requests"
+  },
+  {
+    "confidence": "directional",
+    "decision": "monitor_only",
+    "decision_posture": "monitor",
+    "executive_rank": 9,
+    "momentum_claim_status": "sparse_no_current_signal",
+    "platform_claim_status": "no_platform_claim",
+    "theme_id": "fleet_product_requests"
+  }
+]

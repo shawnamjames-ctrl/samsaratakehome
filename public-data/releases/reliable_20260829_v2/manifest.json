@@ -1,0 +1,31 @@
+{
+  "analysis_release_id": "reliable_20260829_v2",
+  "approved_at": "2026-08-31T00:00:00+00:00",
+  "cutoff_exclusive": "2026-08-30T00:00:00+00:00",
+  "files": [
+    {
+      "path": "static-content.json",
+      "sha256": "8a662ef59cf862393d652431f454e249cf92f7fa1becaf5f1527d7cad76c2356"
+    },
+    {
+      "path": "theme-metrics.json",
+      "sha256": "b38b835a226e2c9ba25af0af8d8ea934f80bdc31c4de5388c0812ceec3cd3477"
+    },
+    {
+      "path": "platform-comparison.json",
+      "sha256": "8b6fb20d5efbaea7e11e359151830a2f90b5c519961b8dd4448b65bdaddd412f"
+    },
+    {
+      "path": "momentum.json",
+      "sha256": "459ee5b9d28281f71c4861af4009760b89612910990058183346b51ce397d6f7"
+    },
+    {
+      "path": "theme-decisions.json",
+      "sha256": "fef2a0e2e5227e39700de572230d07623405ebfe4e516dfa2d31a1aac094bd85"
+    }
+  ],
+  "schema_version": "1.0",
+  "source_hash_mismatches": 0,
+  "source_interface": "reliable_v2_analysis_base",
+  "source_review_count": 924
+}

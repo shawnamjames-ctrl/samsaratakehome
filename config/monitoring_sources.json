@@ -1,0 +1,54 @@
+{
+  "database_path": "data/processed/monitoring_reviews.sqlite3",
+  "raw_directory": "data/monitoring/raw",
+  "sources": [
+    {
+      "app_key": "apple_driver_us",
+      "app_name": "Samsara Driver",
+      "source_platform": "apple_app_store",
+      "store_app_id": "1106069401",
+      "territory": "us",
+      "requested_language": "en",
+      "source_url": "https://apps.apple.com/us/app/samsara-driver/id1106069401",
+      "minimum_full_reviews": 450,
+      "backfill_page_limit": 10,
+      "daily_page_limit": 2
+    },
+    {
+      "app_key": "apple_fleet_us",
+      "app_name": "Samsara Fleet",
+      "source_platform": "apple_app_store",
+      "store_app_id": "1460639044",
+      "territory": "us",
+      "requested_language": "en",
+      "source_url": "https://apps.apple.com/us/app/samsara-fleet/id1460639044",
+      "minimum_full_reviews": 180,
+      "backfill_page_limit": 10,
+      "daily_page_limit": 2
+    },
+    {
+      "app_key": "google_driver_us",
+      "app_name": "Samsara Driver",
+      "source_platform": "google_play",
+      "store_app_id": "com.samsara.driver",
+      "territory": "us",
+      "requested_language": "en",
+      "source_url": "https://play.google.com/store/apps/details?id=com.samsara.driver",
+      "minimum_full_reviews": 3800,
+      "backfill_review_limit": 50000,
+      "daily_review_limit": 300
+    },
+    {
+      "app_key": "google_fleet_us",
+      "app_name": "Samsara Fleet",
+      "source_platform": "google_play",
+      "store_app_id": "com.samsara.admin",
+      "territory": "us",
+      "requested_language": "en",
+      "source_url": "https://play.google.com/store/apps/details?id=com.samsara.admin",
+      "minimum_full_reviews": 200,
+      "backfill_review_limit": 50000,
+      "daily_review_limit": 300
+    }
+  ]
+}

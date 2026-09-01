@@ -1,0 +1,280 @@
+{
+  "analysis_release_id": "reliable_20260831_v3",
+  "decision_moments": [
+    {
+      "action_taken": "Count unique review IDs actually extracted and disclose endpoint limits.",
+      "decision_id": "source_totals",
+      "display_order": 1,
+      "heading": "Do not force the source totals to match",
+      "situation": "Google listing totals and exhausted pagination did not always agree, and Apple Driver exposed a capped public feed.",
+      "why_it_matters": "It keeps the evidence reproducible instead of manufacturing completeness."
+    },
+    {
+      "action_taken": "Remove it and rebuild the sample before taxonomy work continued.",
+      "decision_id": "sample_correction",
+      "display_order": 2,
+      "heading": "Correct the sample before coding",
+      "situation": "A 2022 review appeared in the intended common-window sample.",
+      "why_it_matters": "Correcting the population early prevents a known eligibility error from entering the codebook."
+    },
+    {
+      "action_taken": "Pause downstream analysis, correct carried records, blind-review the rest, and rerun consistency testing.",
+      "decision_id": "semantic_reopen",
+      "display_order": 3,
+      "heading": "Reopen a gate that passed technically",
+      "situation": "The first process audit changed 354 of 439 checked records on at least one field.",
+      "why_it_matters": "Format-valid data is not useful if the meaning is unreliable."
+    },
+    {
+      "action_taken": "Compare the theme among reviews that already signal a problem. The gap narrowed from 42.7% versus 20.0% of all reviews to 49.3% versus 45.0% of problem-signal reviews.",
+      "decision_id": "platform_mix",
+      "display_order": 4,
+      "heading": "Narrow the Fleet Android interpretation",
+      "situation": "Fleet stability appeared much higher on Android in all reviews, but Android also had a far more problem-heavy review population.",
+      "why_it_matters": "The defensible finding is a concentration in negative Android feedback, not proof of a fundamentally different Android product problem."
+    }
+  ],
+  "heading": "Turning public reviews into product signal",
+  "layers": [
+    {
+      "decision_summary": "Use written public reviews from the four tested endpoints and document source limits.",
+      "display_order": 1,
+      "gate_summary": "Confirm endpoint availability, fields, dates, and pagination behavior before accepting a pull.",
+      "heading": "Public app-store sources",
+      "input_summary": "Apple App Store and Google Play listings for Driver and Fleet in the US storefront.",
+      "layer_id": "public_sources",
+      "output_summary": "5,209 endpoint-visible baseline reviews and source metadata.",
+      "path_type": "analysis",
+      "short_label": "Sources"
+    },
+    {
+      "decision_summary": "Preserve the original response before cleaning or interpretation.",
+      "display_order": 2,
+      "gate_summary": "A failed or incomplete pull cannot replace the last good snapshot.",
+      "heading": "Immutable raw evidence",
+      "input_summary": "Returned payloads and pull metadata.",
+      "layer_id": "raw_evidence",
+      "output_summary": "Timestamped source snapshots that can be replayed and audited.",
+      "path_type": "analysis",
+      "short_label": "Raw evidence"
+    },
+    {
+      "decision_summary": "Create stable review IDs, standard fields, hashes, and observation history.",
+      "display_order": 3,
+      "gate_summary": "Uniqueness, integrity, date, and source-reconciliation checks must pass.",
+      "heading": "Normalized facts and history",
+      "input_summary": "Raw review and developer-response records.",
+      "layer_id": "normalized_facts",
+      "output_summary": "A private SQLite evidence base with source changes separated from analytical labels.",
+      "path_type": "analysis",
+      "short_label": "Normalized data"
+    },
+    {
+      "decision_summary": "Use a rolling 365-day US population and relevant denominators; compare recent periods with earlier separate periods.",
+      "display_order": 4,
+      "gate_summary": "Exclude out-of-window records and disclose uneven source coverage.",
+      "heading": "Comparable analytical frame",
+      "input_summary": "Profiled dates, products, platforms, ratings, and source coverage.",
+      "layer_id": "analytical_frame",
+      "output_summary": "927 eligible reviews and comparable product, platform, and time cuts.",
+      "path_type": "analysis",
+      "short_label": "Analysis frame"
+    },
+    {
+      "decision_summary": "Require reproducible meaning across five core analytical fields.",
+      "display_order": 5,
+      "gate_summary": "Pause if semantic agreement fails, even when structural validation passes.",
+      "heading": "Checked taxonomy and labels",
+      "input_summary": "Customer language, calibrated codebook, and normalized review facts.",
+      "layer_id": "checked_interpretation",
+      "output_summary": "Human-checked classifications linked to the source records.",
+      "path_type": "analysis",
+      "short_label": "Interpretation"
+    },
+    {
+      "decision_summary": "Approve only findings that survive denominator, time, platform, challenge, and decision-boundary checks.",
+      "display_order": 6,
+      "gate_summary": "A human reviewer must approve the interpretation.",
+      "heading": "Challenged themes",
+      "input_summary": "Rates, time comparisons, platform cuts, evidence records, and counterevidence.",
+      "layer_id": "challenged_findings",
+      "output_summary": "Nine themes with confidence, response posture, evidence, and claim boundaries.",
+      "path_type": "analysis",
+      "short_label": "Findings"
+    },
+    {
+      "decision_summary": "Freeze a versioned, privacy-safe release with hashed public files.",
+      "display_order": 7,
+      "gate_summary": "Privacy, contract, hash, boundary, and site checks must all pass.",
+      "heading": "Approved shareable release",
+      "input_summary": "Challenged findings, recommendations, and executive narrative.",
+      "layer_id": "approved_release",
+      "output_summary": "Stable executive pages and inspectable public data contracts.",
+      "path_type": "analysis",
+      "short_label": "Approved release"
+    },
+    {
+      "decision_summary": "Update daily operational signals without rewriting the approved analytical release.",
+      "display_order": 8,
+      "gate_summary": "Withhold failed runs, preserve the last good output, and reconcile the rolling year weekly.",
+      "heading": "Repeatable monitoring layer",
+      "input_summary": "Fresh source observations compared with the last successful run.",
+      "layer_id": "repeatable_monitor",
+      "output_summary": "Freshness, new and changed review counts, alerts, and a human review queue.",
+      "path_type": "monitoring",
+      "short_label": "Daily monitor"
+    }
+  ],
+  "lede": "This methodology explains how 5,209 endpoint-visible public reviews became a governed 927-review rolling-year analysis, nine challenged themes, prioritized recommendations, and a repeatable monitoring system. It separates source facts, analytical interpretation, and daily monitoring so new data can update the dashboard without silently rewriting executive conclusions.",
+  "operating_model": {
+    "automated": [
+      {
+        "display_order": 1,
+        "owner_type": "automated",
+        "responsibility": "Collect, normalize, deduplicate, and compare new source observations.",
+        "responsibility_id": "auto_collect"
+      },
+      {
+        "display_order": 2,
+        "owner_type": "automated",
+        "responsibility": "Run integrity, freshness, privacy, contract, and publication checks.",
+        "responsibility_id": "auto_validate"
+      },
+      {
+        "display_order": 3,
+        "owner_type": "automated",
+        "responsibility": "Refresh daily monitor metrics and preserve the last good state on failure.",
+        "responsibility_id": "auto_monitor"
+      }
+    ],
+    "human": [
+      {
+        "display_order": 1,
+        "owner_type": "human",
+        "responsibility": "Approve taxonomy changes and decide whether a new pattern becomes a theme.",
+        "responsibility_id": "human_taxonomy"
+      },
+      {
+        "display_order": 2,
+        "owner_type": "human",
+        "responsibility": "Review counterevidence, platform mix, claim boundaries, and recommendations.",
+        "responsibility_id": "human_interpret"
+      },
+      {
+        "display_order": 3,
+        "owner_type": "human",
+        "responsibility": "Approve a new static analytical release before executive content changes.",
+        "responsibility_id": "human_release"
+      }
+    ]
+  },
+  "phases": [
+    {
+      "boundary_or_gate": "Apple Driver exposes a capped feed and Google listing totals do not always match exhausted pagination. Unique extracted review IDs are the count of record.",
+      "decision_made": "Use all unique written reviews available from the four public sources, while treating storefront feedback as directional evidence.",
+      "display_order": 1,
+      "evidence_produced": "Four source definitions and 5,209 endpoint-visible written reviews in the baseline extraction.",
+      "heading": "Define the question and source boundaries",
+      "objective": "Turn public app-store feedback into useful product signal without claiming that reviews represent every customer.",
+      "phase_id": "scope_sources",
+      "rationale": "This created a reproducible public-data boundary and avoided implying access to internal customer or product data.",
+      "work_completed": "Identified the US Apple App Store and Google Play listings for Driver and Fleet, tested the public endpoints, and documented what each source exposes."
+    },
+    {
+      "boundary_or_gate": "A failed pull cannot replace the last good state, and raw reviewer data remains private.",
+      "decision_made": "Separate raw evidence, normalized facts, and analytical labels instead of overwriting source data.",
+      "display_order": 2,
+      "evidence_produced": "Source snapshots, normalized review records, response records, stable identifiers, hashes, and pull-run logs.",
+      "heading": "Build a trustworthy extraction and storage foundation",
+      "objective": "Preserve what the sources returned and make every later transformation traceable.",
+      "phase_id": "extract_store",
+      "rationale": "This makes reruns, corrections, and source-state changes auditable.",
+      "work_completed": "Saved immutable raw snapshots, normalized reviews and developer responses into SQLite, assigned stable IDs, and retained observation history across pulls."
+    },
+    {
+      "boundary_or_gate": "Google Driver dominates the natural sample, so rates use the relevant product or platform denominator rather than the combined total.",
+      "decision_made": "Use September 1, 2025 through August 31, 2026 for the approved analysis and use separate earlier periods for recent-trend comparisons.",
+      "display_order": 3,
+      "evidence_produced": "927 eligible US written reviews: 800 Driver and 127 Fleet.",
+      "heading": "Profile the data and choose comparable windows",
+      "objective": "Create a fair analysis population before interpreting themes.",
+      "phase_id": "profile_window",
+      "rationale": "A common window makes product and platform comparisons easier to interpret, while separate comparison periods prevent the same review from appearing on both sides.",
+      "work_completed": "Profiled dates, products, platforms, ratings, missingness, duplicates, and source coverage, then selected a common rolling-year window."
+    },
+    {
+      "boundary_or_gate": "An out-of-window 2022 review was removed before coding so calibration matched the approved population.",
+      "decision_made": "Use a structured taxonomy for product area, issue, customer signal, failure mode, and potential consequence.",
+      "display_order": 4,
+      "evidence_produced": "A codebook, inclusion and exclusion rules, calibration notes, and 64 checked calibration records.",
+      "heading": "Discover, align, and calibrate the taxonomy",
+      "objective": "Build labels from the customer language while keeping them relevant to Samsara product decisions.",
+      "phase_id": "taxonomy",
+      "rationale": "The shared definitions reduce interpretation drift and make disagreement visible before scaling.",
+      "work_completed": "Reviewed a 96-review discovery sample, aligned emerging concepts to Samsara product areas, and calibrated definitions on 24 collaborative plus 40 independent reviews."
+    },
+    {
+      "boundary_or_gate": "The manual feedback-strength label did not meet the reproducibility threshold, so it was narrowed to a conservative confirmation flag rather than weakening the gate.",
+      "decision_made": "Rebuild the reliable analysis base instead of accepting technically valid but semantically weak labels.",
+      "display_order": 5,
+      "evidence_produced": "924 checked V2 reviews (438 corrected carry-forwards and 486 blind-reviewed records), five eligible additions, two records aged out, a final 927-review V3 population, and a passing consistency rerun for five core fields.",
+      "heading": "Reopen and correct the semantic classification gate",
+      "objective": "Verify that structurally valid labels also mean the right thing.",
+      "phase_id": "semantic_gate",
+      "rationale": "A data pipeline can pass format checks while still producing unreliable meaning. The semantic gate protects the analysis from that failure.",
+      "work_completed": "Audited early classifications against the review text and found that 354 of 439 checked records changed on at least one field. Downstream work paused, 486 remaining reviews were blind reviewed, and an 80-review consistency rerun tested five core fields."
+    },
+    {
+      "boundary_or_gate": "Public reviews support where to investigate and improve. They do not establish prevalence across all customers or prove root cause.",
+      "decision_made": "Publish only themes that survive the five-part evidence review and receive human approval.",
+      "display_order": 6,
+      "evidence_produced": "Nine challenged themes supported by 373 theme links across 353 unique review records.",
+      "heading": "Synthesize, challenge, and approve findings",
+      "objective": "Turn repeated review patterns into decision-ready findings with explicit limits.",
+      "phase_id": "challenge_findings",
+      "rationale": "Counts alone do not explain whether a pattern is stable, concentrated, consequential, or actionable.",
+      "work_completed": "Calculated product and platform rates, compared separate time periods, reviewed counterevidence and alternative explanations, tested sensitivity, and examined supporting review records."
+    },
+    {
+      "boundary_or_gate": "New reviews can update the monitor automatically, but themes, recommendations, and executive claims change only through review and a new approved release.",
+      "decision_made": "Run two clocks: human-approved analytical releases for executive content and automated monitoring for newly observed signals.",
+      "display_order": 7,
+      "evidence_produced": "A local GitHub Pages build, governed public contracts, hashed release manifest, automated checks, and daily monitor state.",
+      "heading": "Lift the analysis into a shareable, repeatable system",
+      "objective": "Make the work easy to inspect, share, and refresh without silently changing executive conclusions.",
+      "phase_id": "share_repeat",
+      "rationale": "This combines a stable interview deliverable with a maintainable operating process.",
+      "work_completed": "Separated approved static outputs from the live monitor, exported privacy-safe JSON contracts, added validation and last-good behavior, and prepared daily plus weekly reconciliation."
+    }
+  ],
+  "practice_notes": {
+    "access_limits": "No App Store Connect, Google Play Console, internal telemetry, incidents, support, account, or release data were available.",
+    "ai_use": "AI assisted research design, classification support, coding, QA, and drafting. Human review and deterministic checks governed published claims.",
+    "next_week": "Join the top themes to telemetry and support, validate proposed owners and thresholds, repair response-timing anomalies, and activate the private scheduled workflow.",
+    "production_boundary": "The prototype, pipeline, public contracts, validation checks, and workflows are built. Production activation requires private state, GitHub secrets, owner credentials, and internal telemetry and support joins."
+  },
+  "publication_policy": "Daily monitoring updates operational signals. Themes, recommendations, and executive claims change only through human review and a new approved release.",
+  "schema_version": "1.0",
+  "scope_metrics": [
+    {
+      "label": "Public sources",
+      "value": "4"
+    },
+    {
+      "label": "Baseline written reviews",
+      "value": "5,209"
+    },
+    {
+      "label": "Rolling-year analysis",
+      "value": "927"
+    },
+    {
+      "label": "Challenged themes",
+      "value": "9"
+    },
+    {
+      "label": "Monitoring cadence",
+      "value": "Daily + weekly"
+    }
+  ]
+}

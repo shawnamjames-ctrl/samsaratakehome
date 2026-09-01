@@ -1,0 +1,39 @@
+name: Weekly private source reconciliation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 7 * * 0"
+      timezone: "America/Los_Angeles"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: private-review-reconciliation
+  cancel-in-progress: false
+
+jobs:
+  reconcile:
+    if: ${{ vars.MONITORING_ENABLED == 'true' }}
+    runs-on: ubuntu-latest
+    env:
+      STATE_BACKEND: s3
+      PRIVATE_STATE_BUCKET: ${{ secrets.PRIVATE_STATE_BUCKET }}
+      PRIVATE_STATE_PREFIX: ${{ secrets.PRIVATE_STATE_PREFIX }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
+      AWS_ENDPOINT_URL: ${{ secrets.AWS_ENDPOINT_URL }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python pipeline/state_store.py pull-db
+      - run: python review_monitor.py --config config/monitoring_sources.json reconcile
+      - run: python review_monitor.py --config config/monitoring_sources.json validate
+      - run: python pipeline/state_store.py push-raw
+      - run: python pipeline/state_store.py push-db
