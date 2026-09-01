@@ -1,7 +1,10 @@
 # Samsara Mobile Product Intelligence
 
-An evidence-backed Product Operations case study based on 927 US public written reviews
-of Samsara Driver and Samsara Fleet.
+Hey there! Thanks for taking a look at this take home. I'm excited to share more of this
+project with you this week. This is an evidence-backed Product Operations case study
+based on 927 US public written reviews of Samsara Driver and Samsara Fleet. The main
+deliverable is in the form of an HTML with the CPO Memo and Methodology links embedded
+and below. More details on how to navigate the repo below:
 
 ## Start here
 
