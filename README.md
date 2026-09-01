@@ -3,6 +3,15 @@
 An evidence-governed Product Operations case study built from public written reviews of
 Samsara Driver and Samsara Fleet on the US Apple App Store and Google Play.
 
+## View the finished project
+
+- **[Open the interactive analysis](https://shawnamjames-ctrl.github.io/samsaratakehome/)**
+- [Read the three-page CPO memo](https://shawnamjames-ctrl.github.io/samsaratakehome/downloads/Samsara_CPO_Memo.pdf)
+- [Read the one-page methodology note](https://shawnamjames-ctrl.github.io/samsaratakehome/downloads/Samsara_Methodology_Note.pdf)
+
+The interactive analysis is the primary deliverable. Use the navigation to review the
+executive recommendation, thematic analysis, monitoring system, and methodology.
+
 The published experience uses two clocks:
 
 - Overview, analysis, recommendations, and methodology are pinned to a human-approved
@@ -10,7 +19,10 @@ The published experience uses two clocks:
 - The Monitor may refresh after a successful daily pipeline run; it cannot silently
   rewrite the approved executive narrative.
 
-## 60-second local preview
+## Optional: run the site locally
+
+These steps are only for someone who clones the repository and wants to inspect the
+built HTML locally, without relying on the published GitHub Pages site.
 
 From this repository directory, run:
 
