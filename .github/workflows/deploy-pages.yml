@@ -5,11 +5,11 @@ on:
   push:
     branches: [main]
     paths:
-      - "site-src/**"
-      - "public-data/releases/**"
+      - "technical-appendix/site-src/**"
+      - "technical-appendix/public-data/releases/**"
       - "deliverables/**"
-      - "tools/build_site.py"
-      - "tools/test_site_slice.py"
+      - "technical-appendix/tools/build_site.py"
+      - "technical-appendix/tools/test_site_slice.py"
       - ".github/workflows/deploy-pages.yml"
 
 permissions:
@@ -24,6 +24,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: technical-appendix
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
@@ -37,7 +40,7 @@ jobs:
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:
-          path: docs
+          path: technical-appendix/docs
 
   deploy:
     environment:

@@ -5,7 +5,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-WORKFLOWS = ROOT / ".github" / "workflows"
+REPOSITORY_ROOT = ROOT.parent
+WORKFLOWS = REPOSITORY_ROOT / ".github" / "workflows"
 
 
 def require(text: str, pattern: str, message: str) -> None:
@@ -40,8 +41,8 @@ if daily.index("python pipeline/analyze_monitoring.py") > daily.index("python pi
     raise AssertionError("monitoring analysis must run before the public dashboard export")
 require(weekly, r'python review_monitor.py .* reconcile', "weekly workflow must fully reconcile")
 require(deploy, r'actions/upload-pages-artifact@v5', "Pages workflow must upload the built site")
-require(deploy, r'public-data/releases/\*\*', "static Pages workflow must deploy approved release changes")
-if "public-data/**" in deploy or "public-data/dashboard" in deploy:
+require(deploy, r'technical-appendix/public-data/releases/\*\*', "static Pages workflow must deploy approved release changes")
+if "technical-appendix/public-data/**" in deploy or "technical-appendix/public-data/dashboard" in deploy:
     raise AssertionError("dashboard-only changes must not trigger a second Pages deployment")
 require(validate, r'python -m unittest discover', "validation workflow must run failure tests")
 
@@ -50,7 +51,7 @@ for workflow in (daily, weekly, deploy, validate):
         if not (ROOT / script).is_file():
             raise AssertionError(f"workflow references missing script: {script}")
 
-if "data/processed" not in (ROOT / ".gitignore").read_text(encoding="utf-8"):
+if "data/processed" not in (REPOSITORY_ROOT / ".gitignore").read_text(encoding="utf-8"):
     raise AssertionError("private operational database directory must be ignored")
 
 print({"gate": "PASS", "workflows": 4, "daily_deploy": True, "single_dashboard_deploy_path": True, "private_state_after_deploy": True})

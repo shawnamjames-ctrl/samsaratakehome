@@ -7,6 +7,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+REPOSITORY_ROOT = ROOT.parent
 FORBIDDEN_PARTS = {
     "data/raw",
     "data/processed",
@@ -28,18 +29,18 @@ SECRET_PATTERNS = {
 def candidate_files() -> list[Path]:
     result = subprocess.run(
         ["git", "ls-files", "--cached", "--others", "--exclude-standard"],
-        cwd=ROOT,
+        cwd=REPOSITORY_ROOT,
         check=True,
         capture_output=True,
         text=True,
     )
-    return [ROOT / line for line in result.stdout.splitlines() if line]
+    return [REPOSITORY_ROOT / line for line in result.stdout.splitlines() if line]
 
 
 failures: list[str] = []
 files = candidate_files()
 for path in files:
-    relative = path.relative_to(ROOT).as_posix()
+    relative = path.relative_to(REPOSITORY_ROOT).as_posix()
     lowered = relative.lower()
     if any(part in lowered for part in FORBIDDEN_PARTS):
         failures.append(f"forbidden private path: {relative}")

@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "site-src"
 DOCS = ROOT / "docs"
 PUBLIC_DATA = ROOT / "public-data"
-DELIVERABLES = ROOT / "deliverables"
+DELIVERABLES = ROOT.parent / "deliverables"
 
 DOCS.mkdir(parents=True, exist_ok=True)
 for name in ("index.html", "styles.css", "app.js"):

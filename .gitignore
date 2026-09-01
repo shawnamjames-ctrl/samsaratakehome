@@ -9,9 +9,9 @@ __pycache__/
 .pytest_cache/
 
 # Private operational evidence must never enter the public repository.
-data/raw/
-data/processed/
-data/exports/
+technical-appendix/data/raw/
+technical-appendix/data/processed/
+technical-appendix/data/exports/
 private-data/
 *.sqlite
 *.sqlite3
@@ -31,5 +31,5 @@ coverage/
 artifacts/
 
 # The public site may consume only governed files under public-data/.
-public-data/**/*.tmp
-public-data/**/*.partial
+technical-appendix/public-data/**/*.tmp
+technical-appendix/public-data/**/*.partial
